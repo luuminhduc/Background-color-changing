@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 700;
+}
+
+.btn{
+    width: 15%;
+    padding: 20px;
+    border: none;
+    background-color: #000;
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+.btn:hover{
+    opacity: 0.9;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.btn:active{
+    transform: scale(0.95);;
+}
