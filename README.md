@@ -1,1 +1,1 @@
-Click the button the see the changing of background
+Click the button the see the changing of background and you also have the option of automate it and the color will change every 0.5s

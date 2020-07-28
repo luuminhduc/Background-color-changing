@@ -20,6 +20,26 @@ body{
     font-weight: 700;
 }
 
+.btn-change{
+    display: none;
+}
+
+.btn-start{
+    display: none;
+}
+
+.container.active .btn-change{
+    display: block;
+}
+
+.container.active .btn-start{
+    display: block;
+}
+
+.container.active .btn-stop{
+    display: none;
+}
+
 .btn{
     width: 15%;
     padding: 20px;
